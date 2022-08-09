@@ -31,7 +31,11 @@
     padding: 40px 80px;
 }
 
+#data {
 
+    font-size: 21px;
+
+}
 
 
 legend {
@@ -40,14 +44,16 @@ legend {
 
 }
 
+
 label {
+
+    
     font-size: 22px;
     display: block;
     margin-bottom: 15px;
-    margin-left: 40px;
-    margin-top: 15px;
-    
-
+    margin-left: 25px;
+    margin-top: 2px;
+    justify-content: center;
 }
 
 input {
@@ -83,4 +89,11 @@ input {
     color:#2b134b;
     background: white;
     box-shadow: 0px 0px 0px -20px #00ff8052;
+}
+
+@media (max-width: 567px) {
+    nav ul li {
+    
+        display: none;
+    }
 }

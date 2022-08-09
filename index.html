@@ -16,30 +16,39 @@
             <fieldset class="dentro-formulario">
 
 
-                <legend>Cadastro</legend>
+                <legend> Sensores </legend>
 
 
+                <label> Luminosidade
 
-                <label> Nome
+                    <input type="number" name="Luminosidade" id="texto" required>
+                    
+                </label>
 
-                    <input type="text" name="nome" id="Nome" required>
+                <label> Nível de água
+
+                    <input type="number" name="água" id="texto" required>
+                </label>
+
+                <label> Sonar
+
+                    <input type="number" name="sonar" id="texto" required>
                 </label>
 
 
-                <label> Email
+                <label> Temperatura
 
-                    <input type="email" name="email" required>
+                    <input type="number" name="temperatura" required>
                 </label>
 
 
-
-                <label> Data 
+                <label id="data"> Data do Preenchimento
 
                     <input class="Data" type="date" name="data-de-nascimento" required>
                 </label>
 
-                <button class="botao" type="reset" name="Limpar"> Limpar </button>
-                <button  class="botao" type="submit" name="Enviar Dados"> Enviar Dados </button>
+                <button autofocus class="botao" type="reset" name="Limpar"> Limpar </button>
+                <button  autofocus class="botao" type="submit" name="Enviar Dados"> Enviar Dados </button>
 
 
 
